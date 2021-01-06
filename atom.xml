@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>林铖阳的博客</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-05T09:48:29.470Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>lcy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo的后台管理</title>
+    <link href="http://example.com/2020/12/30/hexo%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86-1/"/>
+    <id>http://example.com/2020/12/30/hexo%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86-1/</id>
+    <published>2020-12-30T01:33:03.000Z</published>
+    <updated>2021-01-05T09:48:29.470Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>使用Hexo Admin插件来进行后台的管理</p><p><img src="/images/pasted-3.png" alt="upload successful"></p><a id="more"></a><p>打开<a href="http://localhost//4000/admin/">http://localhost://4000/admin/</a><br><img src="/images/pasted-6.png" alt="upload successful"></p>]]></content>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;使用Hexo Admin插件来进行后台的管理&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-3.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <link href="http://example.com/2020/12/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/12/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</id>
+    <published>2020-12-16T00:34:00.000Z</published>
+    <updated>2021-01-05T08:52:19.056Z</updated>
+    
+    <content type="html"><![CDATA[<p>内容<br>#安装Nodejs<br>node -v    #查看node版本<br>npm -v    #查看npm版本<br>npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    #安装淘宝的cnpm 管理器<br>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架</p><a id="more"></a><p>hexo -v    #查看hexo版本<br>mkdir blog    #创建blog目录<br>cd blog     #进入blog目录<br>sudo hexo init     #生成博客 初始化博客<br>hexo s    #启动本地博客服务<br><a href="http://localhost:4000/">http://localhost:4000/</a>    #本地访问地址<br>hexo n “我的第一篇文章” #创建新的文章<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成<br>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件</p><hr><h2 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="#配置_config.yml"></a>#配置_config.yml</h2><pre><code># Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy:      type: git     repo: https://github.com/YourGithubName/YourGithubName.github.io.git      branch: master</code></pre><hr><p>hexo d    #部署到Github仓库里<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #访问这个地址可以查看博客</p><p> git clone <a href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia  #下载yilia主题到本地</p><p>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</p><p>hexo c    #清理一下<br>hexo g    #生成<br>hexo d    #部署到远程Github仓库<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #查看博客</p><hr>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;内容&lt;br&gt;#安装Nodejs&lt;br&gt;node -v    #查看node版本&lt;br&gt;npm -v    #查看npm版本&lt;br&gt;npm install -g cnpm –registry=&lt;a href=&quot;http://registry.npm.taobao.org/&quot;&gt;http://registry.npm.taobao.org&lt;/a&gt;    #安装淘宝的cnpm 管理器&lt;br&gt;cnpm -v    #查看cnpm版本&lt;br&gt;cnpm install -g hexo-cli    #安装hexo框架&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
